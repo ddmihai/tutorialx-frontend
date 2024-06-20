@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Report() {
     return (
         <div className="bg-white">
@@ -32,9 +34,9 @@ export default function Report() {
                             >
                                 Contact us
                             </a>
-                            <a href="#" className="text-sm font-semibold leading-6 text-white">
+                            <Link to={'/about'} className="text-sm font-semibold leading-6 text-white">
                                 Learn more <span aria-hidden="true">→</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="relative mt-16 h-80 lg:mt-8">
